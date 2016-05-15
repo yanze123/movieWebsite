@@ -1,5 +1,5 @@
 {
-  "name": "movieWebsite",
+  "name": "yanze",
   "version": "0.0.1",
   "description": "movieWebsite",
   "main": "app.js",
@@ -68,5 +68,12 @@
     "movieWebsite"
   ],
   "author": "yanze",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "0.0.1"
+  }
 }

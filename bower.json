@@ -2,7 +2,7 @@
   "name": "movieWebsite",
   "version": "0.0.1",
   "authors": [
-    "yanze123 <462865314@qq.com>"
+    "yanze123 <462865314 @qq.com>"
   ],
   "description": "node.js+express+jade+mongodb",
   "main": "app.js",

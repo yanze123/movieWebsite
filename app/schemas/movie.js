@@ -23,12 +23,12 @@ var MovieSchema = new Schema({
       createAt: {
          type: Date,
          default: Date.now()
-},
+    },
       updateAt: {
          type: Date,
          default: Date.now()
-} 
-}
+    } 
+  }
 })
 MovieSchema.pre('save',function(next){
   if(this.isNew) {
