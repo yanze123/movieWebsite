@@ -20,4 +20,4 @@ ADD . /app/movietest/
 WORKDIR /app/movietest/
 RUN npm install
 EXPOSE 4000
-ENTRYPOINT ["nodejs", "app.js"]
+ENTRYPOINT ["node", "app.js"]
