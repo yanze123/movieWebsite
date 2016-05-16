@@ -8,11 +8,11 @@ RUN mkdir -p /app
 WORKDIR /app
 
 RUN apt-get install -y xz-utils
-ADD node-v6.1.0-linux-x64.tar.xz /app
+ADD node-v4.4.4-linux-x64.tar.xz /app
 
-#RUN tar Jxf node-v6.1.0-linux-x64.tar.xz
-RUN ln -s /app/node-v6.1.0-linux-x64/bin/node /usr/bin
-RUN ln -s /app/node-v6.1.0-linux-x64/bin/npm /usr/bin/npm
+#RUN tar Jxf node-v4.4.4-linux-x64.tar.xz
+RUN ln -s /app/node-v4.4.4-linux-x64/bin/node /usr/bin
+RUN ln -s /app/node-v4.4.4-linux-x64/bin/npm /usr/bin/npm
 RUN npm config set registry=https://registry.npm.taobao.org
 
 RUN mkdir -p /app/movietest/
